@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
                 </div>
             </div>
             <div className="">
-                <div className='bg-gradient-to-r from-[#1E2024] to-[#23272B] rounded-md px-6 py-12 shadow-lg shadow-[#16171b]'>
+                <div className='bg-gradient-to-br from-[#1E2024] to-[#23272B] rounded-md px-6 py-12 shadow-lg shadow-[#16171b] hover:cursor-pointer hover-bg-gradient-to-r hover:from-[#23272B] hover:to-[#1E2024]'>
                 <Image
                     src="/hero-5.png"
                     alt='Hero'
