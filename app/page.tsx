@@ -12,6 +12,8 @@ export default function Home() {
       <Features/>
       <div className="border-t border-black mx-10"/> 
       <Portfolio/>
+      <div className="border-t border-black mx-10"/> 
+      
     </div>
   );
 }
