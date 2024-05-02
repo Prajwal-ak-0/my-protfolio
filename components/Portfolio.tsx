@@ -18,7 +18,6 @@ import {
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import { Badge } from "@/components/ui/badge";
 import CustomBadge from "./CustomBadge";
 import PortfolioDialog from "./PortfolioDialog";
 
