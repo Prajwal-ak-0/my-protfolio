@@ -8,7 +8,7 @@ interface CustomBadgeProps {
 
 const CustomBadge: React.FC<CustomBadgeProps> = ({ color, children }) => {
   return (
-    <div className={cn(color,'text-white', 'rounded-md', 'text-xs', 'mx-2', 'px-1')}>
+    <div className={cn(color,'text-white rounded-md text-xs md:mx-2 mx-1 py-1 px-1 flex items-center justify-center')}>
       {children}
     </div>
   );

@@ -43,14 +43,14 @@ const MobileNavbar = () => {
 
     return (
         <>
-            <div className={`h-20 bg-[#151515] flex items-center justify-between ${isOpen ? 'fixed top-0 w-full z-50' : ''}`}>
+            <div className={`h-20 -top-1 bg-gradient-to-br from-[#15171a] to-[rgb(35,39,43)] shadow-lg shadow-[#16171b] flex z-20 fixed w-full items-center justify-between ${isOpen ? ' z-50' : ''}`}>
                 <div className="mx-4">
                     <Image
                         src="/logo.png"
                         alt="logo"
                         className="block cursor-pointer md:block"
-                        height="120"
-                        width="120"
+                        height="50"
+                        width="50"
                     />
                 </div>
                 <div

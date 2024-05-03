@@ -56,8 +56,8 @@ const Hero: React.FC = () => {
     }, [isTyping, text, loopNum, newTextDelay, myRole]);
 
     return (
-        <div className='w-full flex px-8'>
-            <div className='w-[60%] px-20 py-16'>
+        <div className='w-full md:flex md:px-8 px-4 max-md:mt-20'>
+            <div className='md:w-[60%] md:px-20 md:py-16'>
                 <p className='tracking-widest py-4 text-[#C4CFDE]'>
                     WELCOME TO MY WORLD
                 </p>
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
                 </div>
             </div>
             <div className="">
-                <div className='bg-gradient-to-br from-[#1E2024] to-[#23272B] rounded-md px-6 py-12 shadow-lg shadow-[#16171b] hover:cursor-pointer hover-bg-gradient-to-r hover:from-[#23272B] hover:to-[#1E2024]'>
+                <div className='bg-gradient-to-br from-[#1E2024] to-[#23272B] rounded-md px-6 py-12  shadow-lg shadow-[#16171b] hover:cursor-pointer hover-bg-gradient-to-r hover:from-[#23272B] hover:to-[#1E2024]'>
                 <Image
                     src="/hero-5.png"
                     alt='Hero'

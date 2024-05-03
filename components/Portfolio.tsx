@@ -33,7 +33,7 @@ const Portfolio = () => {
       category: "Machine Learning",
       githubLink: "https://github.com/yourusername/stock-market-prediction",
       projectLink: "https://example.com/stock-market-prediction-demo",
-      skill: ["Python", "Machine Learning", "Data Analysis"],
+      skill: ["Python", "ML"],
     },
     {
       title: "Image Captioning",
@@ -45,9 +45,9 @@ const Portfolio = () => {
       projectLink: "https://example.com/image-captioning-demo",
       skill: [
         "Python",
-        "Deep Learning",
-        "Computer Vision",
-        "Natural Language Processing",
+        "DL",
+        "CNN",
+        "NLP",
       ],
     },
     {
@@ -59,7 +59,7 @@ const Portfolio = () => {
       githubLink:
         "https://github.com/yourusername/reinforcement-learning-game-ai",
       projectLink: "https://example.com/reinforcement-learning-demo",
-      skill: ["Python", "Reinforcement Learning", "Artificial Intelligence"],
+      skill: ["Python", "RL", "AI"],
     },
     {
       title: "PDF Summarizer using Large Language Models (LLM)",
@@ -69,7 +69,7 @@ const Portfolio = () => {
       category: "Natural Language Processing",
       githubLink: "https://github.com/yourusername/pdf-summarizer-llm",
       projectLink: "https://example.com/pdf-summarizer-demo",
-      skill: ["Python", "Natural Language Processing", "Machine Learning"],
+      skill: ["Python", "NLP", "ML","LLM"],
     },
     {
       title: "Modal Building with Large Language Models (LLM)",
@@ -79,7 +79,7 @@ const Portfolio = () => {
       category: "User Interface",
       githubLink: "https://github.com/yourusername/modal-building-llm",
       projectLink: "https://example.com/modal-building-demo",
-      skill: ["Python", "Frontend Development", "User Interface Design"],
+      skill: ["Python", "Web Dev", "LLM"],
     },
     {
       title: "Machine Learning Model",
@@ -91,22 +91,20 @@ const Portfolio = () => {
       projectLink: "https://example.com/machine-learning-model-demo",
       skill: [
         "Python",
-        "Machine Learning",
-        "Data Preprocessing",
-        "Model Evaluation",
+        "ML"
       ],
     },
   ];
 
   return (
-    <div className="px-20 py-16">
+    <div className="md:px-20 px-4 md:py-16 py-8">
       <div className="flex flex-col items-center">
         <p className="text-[#FF014F] font-light tracking-widest py-2">
           CHECK OUT MY WORK
         </p>
-        <h1 className="py-6 text-6xl font-bold">My Portfolio</h1>
+        <h1 className="py-3 text-5xl md:text-6xl font-bold">My Portfolio</h1>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         {myProjects.map((project, index) => (
           <Dialog key={index}>
             <DialogTrigger asChild>

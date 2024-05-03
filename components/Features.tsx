@@ -38,14 +38,14 @@ const Features = () => {
     ]
 
   return (
-    <div className='px-20 py-16'>
+    <div className='md:px-20 px-4 py-16'>
         <p className='text-[#FF014F] font-light tracking-widest py-2'>
             FEATURES
         </p>
         <h1 className='py-6 text-6xl font-bold'>
             What I Do
         </h1>
-        <div className='grid grid-cols-3 gap-8'>
+        <div className='grid md:grid-cols-3 gap-8'>
             {features.map((feature, index) => (
             <FeatureCard key={index} feature={feature} />
             ))}
